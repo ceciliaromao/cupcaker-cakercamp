@@ -1,11 +1,10 @@
-/* eslint-disable @typescript-eslint/naming-convention */
 import styles from './styles.module.scss'
 
-interface LabelProps {
+interface ILabelProps {
   labelTitle: string
 }
 
-const LabelType = ({labelTitle}: LabelProps): JSX.Element => {
+const LabelType = ({ labelTitle }: ILabelProps): JSX.Element => {
   return (
     <a className={styles.labelTag} title={labelTitle}>
       #{labelTitle}

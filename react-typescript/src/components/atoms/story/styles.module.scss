@@ -1,58 +1,56 @@
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .storyItem {
-    display: block;
-    overflow: hidden;
-    float: left;
-    width: 120px;
-    height: 178px;
-    padding: 0 5px;
-    margin-bottom: 20px;
-    text-align: center;
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 120px;
+  height: 178px;
+  padding: 0 5px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .storyImage {
-    display: inline-block;
-    overflow: hidden;
-    width: 90%;
-    height: 100px;
-    border-radius: 50%;
-    border: 2px solid #ccc;
+  display: inline-block;
+  overflow: hidden;
+  width: 90%;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
 }
 
 .storyImage img {
-    width: auto;
-    height: 100%;
-    margin-left: -25%;
+  width: auto;
+  height: 100%;
+  margin-left: -25%;
 
-    -moz-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .storyTitle {
-    display: inline-block;
-    width: 90%;
-    padding: 0;
-    font-size: .8rem;
-    text-align: center;
+  display: inline-block;
+  width: 90%;
+  padding: 0;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 .storyItem:hover {
-    .storyImage {
-        border: 2px solid #ff3c00;
-    }
+  .storyImage {
+    border: 2px solid #ff3c00;
+  }
 
-    .storyImage img {
-        height: 120%;
-        margin-left: -40%;
-        margin-top: -5%;
+  .storyImage img {
+    height: 120%;
+    margin-left: -40%;
+    margin-top: -5%;
 
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-    }
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 }
-
-

@@ -1,25 +1,25 @@
 .labelTag {
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgba(0,0,0,.5);
-    color: #fff;
-    display: block;
-    float: left;
-    width: auto;
-    height: auto;
-    margin: 0 0 0 10px;
-    padding: 5px 7px;
-    text-transform: uppercase;
-    font-size: .75rem;
-    text-shadow: 1px 1px 1px #000;
-    border-left: 3px solid #e53935;
-    font-weight: 700;
-    
-    -moz-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: block;
+  float: left;
+  width: auto;
+  height: auto;
+  margin: 0 0 0 10px;
+  padding: 5px 7px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  text-shadow: 1px 1px 1px #000;
+  border-left: 3px solid #e53935;
+  font-weight: 700;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
-  
+
 .labelTag:hover {
-    background-color: #e53935;
+  background-color: #e53935;
 }

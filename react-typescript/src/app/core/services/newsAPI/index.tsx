@@ -1,4 +1,5 @@
 import { AxiosResponse } from 'axios'
+
 import { http } from 'interfaces/http'
 
 const NEWS_URL = '/v1/news/'
@@ -8,7 +9,7 @@ const getNews = async (): Promise<AxiosResponse> => {
 }
 
 const NewsList = {
-    getNews,
+  getNews,
 }
 
 export { NewsList }

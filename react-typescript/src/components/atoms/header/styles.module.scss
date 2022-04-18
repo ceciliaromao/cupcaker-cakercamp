@@ -1,89 +1,85 @@
 header {
-    max-height: 180px;
-    display: block;
-    z-index: 5;
-    width: 100%;
-    display: block;
+  max-height: 180px;
+  display: block;
+  z-index: 5;
+  width: 100%;
+  display: block;
 }
 
 a {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 nav {
-    font-family: 'Oxygen',sans-serif;
-    height: 58px;
-    width: 100%;
-    z-index: 1;
-    display: block;
+  font-family: 'Oxygen', sans-serif;
+  height: 58px;
+  width: 100%;
+  z-index: 1;
+  display: block;
 }
 
 .container {
-    margin: 0 110px;
-    display: block;
-    overflow: hidden;
-    position: relative;
+  margin: 0 110px;
+  display: block;
+  overflow: hidden;
+  position: relative;
 }
 
 header .headerTop {
-    overflow: hidden;
-    margin: 10px 0 0;
-    height: 55px;
+  overflow: hidden;
+  margin: 10px 0 0;
+  height: 55px;
 }
 
-
 header .headerTop .headerLogo {
-    overflow: hidden;
-    display: block;
-    float: left;
-    width: 350px;
-    height: 55px;
+  overflow: hidden;
+  display: block;
+  float: left;
+  width: 350px;
+  height: 55px;
 }
 
 .logoBlack {
-    display: block;
+  display: block;
 }
 
 img {
-    width: 350px;
-    height: 55px;
+  width: 350px;
+  height: 55px;
 }
 
 nav .tabContainer {
-    background-color: #222;
-    overflow: hidden;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    border-bottom: 3px solid #e53935;
-    height: 56px;
-    align-items: center;
+  background-color: #222;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-bottom: 3px solid #e53935;
+  height: 56px;
+  align-items: center;
 }
 
 nav .themeContainer {
-    padding: 0;
-    display: block;
-    float: right;
-    position: relative;
-    width: 45px;
-    height: 46px;
-
-    
+  padding: 0;
+  display: block;
+  float: right;
+  position: relative;
+  width: 45px;
+  height: 46px;
 }
 
 nav .themeContainer a {
-    text-decoration: none;
-    cursor: pointer;
-    color: #ddd;
-    font-size: 1rem;
-    margin: 5px 0;
-    padding: 0 10px;
-    line-height: 3.5rem;
-    display: inline-block;
-    
-    background-color: rgb(255,255,255,0);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    
+  text-decoration: none;
+  cursor: pointer;
+  color: #ddd;
+  font-size: 1rem;
+  margin: 5px 0;
+  padding: 0 10px;
+  line-height: 3.5rem;
+  display: inline-block;
+
+  background-color: rgb(255, 255, 255, 0);
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }

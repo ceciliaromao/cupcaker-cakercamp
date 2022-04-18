@@ -1,37 +1,36 @@
 footer {
-    bottom: 0;
-    flex-shrink: 0;
-    background-color: #222;
-    color: #aaa;
-    font-size: .9rem;
-    padding: 15px 0;
-    max-height: 70px;
+  bottom: 0;
+  flex-shrink: 0;
+  background-color: #222;
+  color: #aaa;
+  font-size: 0.9rem;
+  padding: 15px 0;
+  max-height: 70px;
 
-    width: 100%;
-    z-index: 1;
+  width: 100%;
+  z-index: 1;
 
-    display: block;
+  display: block;
 }
 
 footer .cointainer {
-    margin: 0 120px;
-    display: block;
-    overflow: hidden;
-    position: relative;
+  margin: 0 120px;
+  display: block;
+  overflow: hidden;
+  position: relative;
 }
 
 footer .footerCenter {
-    display: block;
-    overflow: hidden;
-    width: 80%;
-    margin: 3px auto;
-    text-align: center;
+  display: block;
+  overflow: hidden;
+  width: 80%;
+  margin: 3px auto;
+  text-align: center;
 }
 
-footer a, footer a:visited {
-    text-decoration: none;
-    cursor: pointer;
-    color: #eee;
+footer a,
+footer a:visited {
+  text-decoration: none;
+  cursor: pointer;
+  color: #eee;
 }
-
-
